@@ -1,0 +1,1 @@
+../../../BuddySDK/Src/Lib/BuddySDK/Models/BPUser.h

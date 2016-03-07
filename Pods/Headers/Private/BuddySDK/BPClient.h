@@ -1,0 +1,1 @@
+../../../BuddySDK/Src/Lib/BuddySDK/BPClient.h

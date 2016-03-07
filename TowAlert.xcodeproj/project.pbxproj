@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F70D0C57E717789D37B72DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BCF42A2626E678FCD84551 /* libPods.a */; };
+		CF1B06EE1C8A39360012FAA0 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1B06ED1C8A39360012FAA0 /* MessagesViewController.m */; };
+		CF1B06F11C8A3C0F0012FAA0 /* CustomAlertCel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1B06F01C8A3C0F0012FAA0 /* CustomAlertCel.m */; };
+		CF1B06F41C8A624F0012FAA0 /* Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1B06F31C8A624F0012FAA0 /* Appearance.m */; };
+		CF1B06F71C8AAEAA0012FAA0 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1B06F61C8AAEAA0012FAA0 /* UIView+Toast.m */; };
+		CF1B06F91C8AC2DB0012FAA0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1B06F81C8AC2DB0012FAA0 /* CoreLocation.framework */; };
+		CF1B06FD1C8AD15B0012FAA0 /* EXPhotoViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1B06FC1C8AD15B0012FAA0 /* EXPhotoViewer.m */; };
+		CF3FEF9A1C8CBC2B0067043D /* AvailableParkingTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FEF991C8CBC2B0067043D /* AvailableParkingTVC.m */; };
+		CF832D411C8A1B5C002CD9E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF832D401C8A1B5C002CD9E3 /* main.m */; };
+		CF832D441C8A1B5C002CD9E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF832D431C8A1B5C002CD9E3 /* AppDelegate.m */; };
+		CF832D4A1C8A1B5C002CD9E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF832D481C8A1B5C002CD9E3 /* Main.storyboard */; };
+		CF832D4C1C8A1B5C002CD9E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF832D4B1C8A1B5C002CD9E3 /* Assets.xcassets */; };
+		CF832D4F1C8A1B5C002CD9E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF832D4D1C8A1B5C002CD9E3 /* LaunchScreen.storyboard */; };
+		CF832D5A1C8A1B5C002CD9E3 /* TowAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF832D591C8A1B5C002CD9E3 /* TowAlertTests.m */; };
+		CF832D651C8A1B5C002CD9E3 /* TowAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF832D641C8A1B5C002CD9E3 /* TowAlertUITests.m */; };
+		CF832D751C8A1BCF002CD9E3 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF832D741C8A1BCF002CD9E3 /* libicucore.tbd */; };
+		CF832D771C8A1BDD002CD9E3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF832D761C8A1BDD002CD9E3 /* libc++.tbd */; };
+		CF832D791C8A1BEB002CD9E3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF832D781C8A1BEB002CD9E3 /* CFNetwork.framework */; };
+		CF832D7B1C8A1BF2002CD9E3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF832D7A1C8A1BF2002CD9E3 /* Security.framework */; };
+		CF832D7D1C8A1BF9002CD9E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF832D7C1C8A1BF9002CD9E3 /* SystemConfiguration.framework */; };
+		CF8330091C8A2910002CD9E3 /* LoginVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8330081C8A2910002CD9E3 /* LoginVCViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF832D561C8A1B5C002CD9E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF832D341C8A1B5C002CD9E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF832D3B1C8A1B5C002CD9E3;
+			remoteInfo = TowAlert;
+		};
+		CF832D611C8A1B5C002CD9E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF832D341C8A1B5C002CD9E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF832D3B1C8A1B5C002CD9E3;
+			remoteInfo = TowAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A2B54A417AB656476089E3F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		537B04DD9238B2BAF0FDE8A5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		77BCF42A2626E678FCD84551 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1B06EC1C8A39360012FAA0 /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		CF1B06ED1C8A39360012FAA0 /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		CF1B06EF1C8A3C0F0012FAA0 /* CustomAlertCel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertCel.h; sourceTree = "<group>"; };
+		CF1B06F01C8A3C0F0012FAA0 /* CustomAlertCel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertCel.m; sourceTree = "<group>"; };
+		CF1B06F21C8A624F0012FAA0 /* Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appearance.h; sourceTree = "<group>"; };
+		CF1B06F31C8A624F0012FAA0 /* Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appearance.m; sourceTree = "<group>"; };
+		CF1B06F51C8AAEAA0012FAA0 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		CF1B06F61C8AAEAA0012FAA0 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		CF1B06F81C8AC2DB0012FAA0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CF1B06FB1C8AD15B0012FAA0 /* EXPhotoViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPhotoViewer.h; sourceTree = "<group>"; };
+		CF1B06FC1C8AD15B0012FAA0 /* EXPhotoViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXPhotoViewer.m; sourceTree = "<group>"; };
+		CF3FEF981C8CBC2B0067043D /* AvailableParkingTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvailableParkingTVC.h; sourceTree = "<group>"; };
+		CF3FEF991C8CBC2B0067043D /* AvailableParkingTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvailableParkingTVC.m; sourceTree = "<group>"; };
+		CF832D3C1C8A1B5C002CD9E3 /* TowAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF832D401C8A1B5C002CD9E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF832D421C8A1B5C002CD9E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF832D431C8A1B5C002CD9E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF832D491C8A1B5C002CD9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF832D4B1C8A1B5C002CD9E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF832D4E1C8A1B5C002CD9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF832D501C8A1B5C002CD9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF832D551C8A1B5C002CD9E3 /* TowAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF832D591C8A1B5C002CD9E3 /* TowAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TowAlertTests.m; sourceTree = "<group>"; };
+		CF832D5B1C8A1B5C002CD9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF832D601C8A1B5C002CD9E3 /* TowAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF832D641C8A1B5C002CD9E3 /* TowAlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TowAlertUITests.m; sourceTree = "<group>"; };
+		CF832D661C8A1B5C002CD9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF832D741C8A1BCF002CD9E3 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		CF832D761C8A1BDD002CD9E3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		CF832D781C8A1BEB002CD9E3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CF832D7A1C8A1BF2002CD9E3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CF832D7C1C8A1BF9002CD9E3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CF8330071C8A2910002CD9E3 /* LoginVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVCViewController.h; sourceTree = "<group>"; };
+		CF8330081C8A2910002CD9E3 /* LoginVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVCViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF832D391C8A1B5C002CD9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1B06F91C8AC2DB0012FAA0 /* CoreLocation.framework in Frameworks */,
+				CF832D7D1C8A1BF9002CD9E3 /* SystemConfiguration.framework in Frameworks */,
+				CF832D7B1C8A1BF2002CD9E3 /* Security.framework in Frameworks */,
+				CF832D791C8A1BEB002CD9E3 /* CFNetwork.framework in Frameworks */,
+				CF832D771C8A1BDD002CD9E3 /* libc++.tbd in Frameworks */,
+				CF832D751C8A1BCF002CD9E3 /* libicucore.tbd in Frameworks */,
+				2F70D0C57E717789D37B72DF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF832D521C8A1B5C002CD9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF832D5D1C8A1B5C002CD9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35E5E21789A677213684A46E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B06F81C8AC2DB0012FAA0 /* CoreLocation.framework */,
+				77BCF42A2626E678FCD84551 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AA07922B5323F4A65BE5121 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				537B04DD9238B2BAF0FDE8A5 /* Pods.debug.xcconfig */,
+				1A2B54A417AB656476089E3F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1B06FA1C8AD15B0012FAA0 /* EXPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B06FB1C8AD15B0012FAA0 /* EXPhotoViewer.h */,
+				CF1B06FC1C8AD15B0012FAA0 /* EXPhotoViewer.m */,
+			);
+			path = EXPhotoViewer;
+			sourceTree = "<group>";
+		};
+		CF832D331C8A1B5C002CD9E3 = {
+			isa = PBXGroup;
+			children = (
+				CF832D3E1C8A1B5C002CD9E3 /* TowAlert */,
+				CF832D581C8A1B5C002CD9E3 /* TowAlertTests */,
+				CF832D631C8A1B5C002CD9E3 /* TowAlertUITests */,
+				CF832D3D1C8A1B5C002CD9E3 /* Products */,
+				6AA07922B5323F4A65BE5121 /* Pods */,
+				35E5E21789A677213684A46E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF832D3D1C8A1B5C002CD9E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF832D3C1C8A1B5C002CD9E3 /* TowAlert.app */,
+				CF832D551C8A1B5C002CD9E3 /* TowAlertTests.xctest */,
+				CF832D601C8A1B5C002CD9E3 /* TowAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF832D3E1C8A1B5C002CD9E3 /* TowAlert */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B06F21C8A624F0012FAA0 /* Appearance.h */,
+				CF1B06F31C8A624F0012FAA0 /* Appearance.m */,
+				CF832D421C8A1B5C002CD9E3 /* AppDelegate.h */,
+				CF832D431C8A1B5C002CD9E3 /* AppDelegate.m */,
+				CF8330071C8A2910002CD9E3 /* LoginVCViewController.h */,
+				CF8330081C8A2910002CD9E3 /* LoginVCViewController.m */,
+				CF1B06EC1C8A39360012FAA0 /* MessagesViewController.h */,
+				CF1B06ED1C8A39360012FAA0 /* MessagesViewController.m */,
+				CF1B06EF1C8A3C0F0012FAA0 /* CustomAlertCel.h */,
+				CF1B06F01C8A3C0F0012FAA0 /* CustomAlertCel.m */,
+				CF3FEF981C8CBC2B0067043D /* AvailableParkingTVC.h */,
+				CF3FEF991C8CBC2B0067043D /* AvailableParkingTVC.m */,
+				CF832D481C8A1B5C002CD9E3 /* Main.storyboard */,
+				CF832D4B1C8A1B5C002CD9E3 /* Assets.xcassets */,
+				CF832D4D1C8A1B5C002CD9E3 /* LaunchScreen.storyboard */,
+				CF832D501C8A1B5C002CD9E3 /* Info.plist */,
+				CF832D3F1C8A1B5C002CD9E3 /* Supporting Files */,
+			);
+			path = TowAlert;
+			sourceTree = "<group>";
+		};
+		CF832D3F1C8A1B5C002CD9E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B06FA1C8AD15B0012FAA0 /* EXPhotoViewer */,
+				CF1B06F51C8AAEAA0012FAA0 /* UIView+Toast.h */,
+				CF1B06F61C8AAEAA0012FAA0 /* UIView+Toast.m */,
+				CF832D7C1C8A1BF9002CD9E3 /* SystemConfiguration.framework */,
+				CF832D7A1C8A1BF2002CD9E3 /* Security.framework */,
+				CF832D781C8A1BEB002CD9E3 /* CFNetwork.framework */,
+				CF832D761C8A1BDD002CD9E3 /* libc++.tbd */,
+				CF832D741C8A1BCF002CD9E3 /* libicucore.tbd */,
+				CF832D401C8A1B5C002CD9E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF832D581C8A1B5C002CD9E3 /* TowAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF832D591C8A1B5C002CD9E3 /* TowAlertTests.m */,
+				CF832D5B1C8A1B5C002CD9E3 /* Info.plist */,
+			);
+			path = TowAlertTests;
+			sourceTree = "<group>";
+		};
+		CF832D631C8A1B5C002CD9E3 /* TowAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF832D641C8A1B5C002CD9E3 /* TowAlertUITests.m */,
+				CF832D661C8A1B5C002CD9E3 /* Info.plist */,
+			);
+			path = TowAlertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF832D3B1C8A1B5C002CD9E3 /* TowAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF832D691C8A1B5C002CD9E3 /* Build configuration list for PBXNativeTarget "TowAlert" */;
+			buildPhases = (
+				807EEAFC45094662FD66A6F6 /* Check Pods Manifest.lock */,
+				CF832D381C8A1B5C002CD9E3 /* Sources */,
+				CF832D391C8A1B5C002CD9E3 /* Frameworks */,
+				CF832D3A1C8A1B5C002CD9E3 /* Resources */,
+				8DF3AF6392231E76A86853F8 /* Embed Pods Frameworks */,
+				FE4507AFF8B8133E1805B213 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowAlert;
+			productName = TowAlert;
+			productReference = CF832D3C1C8A1B5C002CD9E3 /* TowAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF832D541C8A1B5C002CD9E3 /* TowAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF832D6C1C8A1B5C002CD9E3 /* Build configuration list for PBXNativeTarget "TowAlertTests" */;
+			buildPhases = (
+				CF832D511C8A1B5C002CD9E3 /* Sources */,
+				CF832D521C8A1B5C002CD9E3 /* Frameworks */,
+				CF832D531C8A1B5C002CD9E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF832D571C8A1B5C002CD9E3 /* PBXTargetDependency */,
+			);
+			name = TowAlertTests;
+			productName = TowAlertTests;
+			productReference = CF832D551C8A1B5C002CD9E3 /* TowAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF832D5F1C8A1B5C002CD9E3 /* TowAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF832D6F1C8A1B5C002CD9E3 /* Build configuration list for PBXNativeTarget "TowAlertUITests" */;
+			buildPhases = (
+				CF832D5C1C8A1B5C002CD9E3 /* Sources */,
+				CF832D5D1C8A1B5C002CD9E3 /* Frameworks */,
+				CF832D5E1C8A1B5C002CD9E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF832D621C8A1B5C002CD9E3 /* PBXTargetDependency */,
+			);
+			name = TowAlertUITests;
+			productName = TowAlertUITests;
+			productReference = CF832D601C8A1B5C002CD9E3 /* TowAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF832D341C8A1B5C002CD9E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Dalton;
+				TargetAttributes = {
+					CF832D3B1C8A1B5C002CD9E3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZW8XHLXS82;
+					};
+					CF832D541C8A1B5C002CD9E3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CF832D3B1C8A1B5C002CD9E3;
+					};
+					CF832D5F1C8A1B5C002CD9E3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CF832D3B1C8A1B5C002CD9E3;
+					};
+				};
+			};
+			buildConfigurationList = CF832D371C8A1B5C002CD9E3 /* Build configuration list for PBXProject "TowAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF832D331C8A1B5C002CD9E3;
+			productRefGroup = CF832D3D1C8A1B5C002CD9E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF832D3B1C8A1B5C002CD9E3 /* TowAlert */,
+				CF832D541C8A1B5C002CD9E3 /* TowAlertTests */,
+				CF832D5F1C8A1B5C002CD9E3 /* TowAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF832D3A1C8A1B5C002CD9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF832D4F1C8A1B5C002CD9E3 /* LaunchScreen.storyboard in Resources */,
+				CF832D4C1C8A1B5C002CD9E3 /* Assets.xcassets in Resources */,
+				CF832D4A1C8A1B5C002CD9E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF832D531C8A1B5C002CD9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF832D5E1C8A1B5C002CD9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		807EEAFC45094662FD66A6F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF3AF6392231E76A86853F8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE4507AFF8B8133E1805B213 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF832D381C8A1B5C002CD9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8330091C8A2910002CD9E3 /* LoginVCViewController.m in Sources */,
+				CF1B06F41C8A624F0012FAA0 /* Appearance.m in Sources */,
+				CF1B06F11C8A3C0F0012FAA0 /* CustomAlertCel.m in Sources */,
+				CF3FEF9A1C8CBC2B0067043D /* AvailableParkingTVC.m in Sources */,
+				CF1B06FD1C8AD15B0012FAA0 /* EXPhotoViewer.m in Sources */,
+				CF1B06EE1C8A39360012FAA0 /* MessagesViewController.m in Sources */,
+				CF1B06F71C8AAEAA0012FAA0 /* UIView+Toast.m in Sources */,
+				CF832D441C8A1B5C002CD9E3 /* AppDelegate.m in Sources */,
+				CF832D411C8A1B5C002CD9E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF832D511C8A1B5C002CD9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF832D5A1C8A1B5C002CD9E3 /* TowAlertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF832D5C1C8A1B5C002CD9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF832D651C8A1B5C002CD9E3 /* TowAlertUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF832D571C8A1B5C002CD9E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF832D3B1C8A1B5C002CD9E3 /* TowAlert */;
+			targetProxy = CF832D561C8A1B5C002CD9E3 /* PBXContainerItemProxy */;
+		};
+		CF832D621C8A1B5C002CD9E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF832D3B1C8A1B5C002CD9E3 /* TowAlert */;
+			targetProxy = CF832D611C8A1B5C002CD9E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF832D481C8A1B5C002CD9E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF832D491C8A1B5C002CD9E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF832D4D1C8A1B5C002CD9E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF832D4E1C8A1B5C002CD9E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF832D671C8A1B5C002CD9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF832D681C8A1B5C002CD9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF832D6A1C8A1B5C002CD9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537B04DD9238B2BAF0FDE8A5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TowAlert",
+					"$(PROJECT_DIR)/TowAlert/Src/Lib/BuddySDK/Vendor",
+				);
+				INFOPLIST_FILE = TowAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalton.TowAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CF832D6B1C8A1B5C002CD9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2B54A417AB656476089E3F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TowAlert",
+					"$(PROJECT_DIR)/TowAlert/Src/Lib/BuddySDK/Vendor",
+				);
+				INFOPLIST_FILE = TowAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalton.TowAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CF832D6D1C8A1B5C002CD9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TowAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalton.TowAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowAlert.app/TowAlert";
+			};
+			name = Debug;
+		};
+		CF832D6E1C8A1B5C002CD9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TowAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalton.TowAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowAlert.app/TowAlert";
+			};
+			name = Release;
+		};
+		CF832D701C8A1B5C002CD9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TowAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalton.TowAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TowAlert;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF832D711C8A1B5C002CD9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TowAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalton.TowAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TowAlert;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF832D371C8A1B5C002CD9E3 /* Build configuration list for PBXProject "TowAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF832D671C8A1B5C002CD9E3 /* Debug */,
+				CF832D681C8A1B5C002CD9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF832D691C8A1B5C002CD9E3 /* Build configuration list for PBXNativeTarget "TowAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF832D6A1C8A1B5C002CD9E3 /* Debug */,
+				CF832D6B1C8A1B5C002CD9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF832D6C1C8A1B5C002CD9E3 /* Build configuration list for PBXNativeTarget "TowAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF832D6D1C8A1B5C002CD9E3 /* Debug */,
+				CF832D6E1C8A1B5C002CD9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF832D6F1C8A1B5C002CD9E3 /* Build configuration list for PBXNativeTarget "TowAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF832D701C8A1B5C002CD9E3 /* Debug */,
+				CF832D711C8A1B5C002CD9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF832D341C8A1B5C002CD9E3 /* Project object */;
+}

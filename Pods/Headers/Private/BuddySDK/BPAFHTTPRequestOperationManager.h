@@ -1,0 +1,1 @@
+../../../BuddySDK/Src/Lib/BuddySDK/Vendor/AFNetworking/AFNetworking/BPAFHTTPRequestOperationManager.h

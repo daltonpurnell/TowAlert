@@ -1,0 +1,6 @@
+framework module BuddySDK {
+  umbrella header "BuddySDK.h"
+
+  export *
+  module * { export * }
+}
